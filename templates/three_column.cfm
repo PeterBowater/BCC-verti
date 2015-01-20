@@ -1,7 +1,7 @@
 <cfoutput>
 	<cfinclude template="inc/html_head.cfm" />
 	<body id="#$.getTopID()#" class="#$.createCSSid($.content('menuTitle'))#">
-		<div class="#$.getMBContainerClass()#">
+		<div>
 			<cfinclude template="inc/navbar.cfm" />
       		<div class="row-fluid">
 	      		<aside class="span3">

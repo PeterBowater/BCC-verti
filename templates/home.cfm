@@ -1,33 +1,16 @@
 <cfoutput>
 	<cfinclude template="inc/html_head.cfm" />
 	<body id="#$.getTopID()#" class="#$.createCSSid($.content('menuTitle'))#" data-spy="scroll" data-target=".subnav" data-offset="50">
-		<div class="#$.getMBContainerClass()#">
+		<div>
 			<cfinclude template="inc/navbar.cfm" />
-			<div class="#$.getMBRowClass()#">
-				<section class="span8">
-					<!---
-						The Carousel/Slideshow
-						Refer to the theme's contentRenderer.cfc for details on this method and its arguments/options
-						NOTE: Only content items with an 'Associated Image' will be rendered
-					--->
-					#$.dspCarouselByFeedName(
-						feedName='Home Slideshow'
-						, showCaption=true
-						, cssID='myCarousel'
-						, size='custom'
-						, width=800	
-						, height=350
-						, interval=5000
-						, autoStart=true
-						, showCaption=false
-					)#
-				</section>
+			<div>
+				
 				<section class="span4">
 					#$.dspObjects(1)# 
 				</section>
 			</div>
 			
-			<div class="#$.getMBRowClass()#">
+			<div>
 				<section class="span9 content">
 					<!--- The content --->
 					#$.dspBody(
