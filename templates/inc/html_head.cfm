@@ -19,12 +19,15 @@
 	<script src="#$.siteConfig('themeAssetPath')#/js/theme/skel.min.js"></script>
 	<script src="#$.siteConfig('themeAssetPath')#/js/theme/skel-layers.min.js"></script>
 	<script src="#$.siteConfig('themeAssetPath')#/js/theme/init.js"></script>
+	<script src="#$.siteConfig('themeAssetPath')#/js/theme/owl.carousel.min.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/skel.css" />
 		<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style.css" />
 		<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style-desktop.css" />
 	</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/owl.carousel.css" />
+	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/owl.theme.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/ie/v8.css" /><![endif]-->
 
 
 	<!--- FAV AND TOUCH ICONS

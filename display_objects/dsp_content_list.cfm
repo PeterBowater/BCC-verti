@@ -201,7 +201,7 @@ version 2 without this exception.  You may, if you choose, apply this exception 
 						</cfif>
 					</cfcase>
 					<cfcase value="Title">
-						<dt class="title"><cfif arguments.type eq "Search">#arguments.iterator.getRecordIndex()#. </cfif>#$.addLink(arguments.item.getValue('type'),arguments.item.getValue('filename'),arguments.item.getValue('menutitle'),arguments.item.getValue('target'),arguments.item.getValue('targetparams'),arguments.item.getValue('contentID'),arguments.item.getValue('siteID'),'',$.globalConfig('context'),$.globalConfig('stub'),$.globalConfig('indexFile'))#</dt>
+						<dt class="title"><h3><cfif arguments.type eq "Search">#arguments.iterator.getRecordIndex()#. </cfif>#$.addLink(arguments.item.getValue('type'),arguments.item.getValue('filename'),arguments.item.getValue('menutitle'),arguments.item.getValue('target'),arguments.item.getValue('targetparams'),arguments.item.getValue('contentID'),arguments.item.getValue('siteID'),'',$.globalConfig('context'),$.globalConfig('stub'),$.globalConfig('indexFile'))#</h3></dt>
 					</cfcase>
 					<cfcase value="Image">
 						<cfif arguments.hasImage>

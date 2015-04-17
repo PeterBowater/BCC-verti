@@ -13,11 +13,11 @@
 				<nav id="nav">
 					<cf_CacheOMatic key="dspPrimaryNav#$.content('contentid')#">
 						#$.dspPrimaryNav(
-							viewDepth=0,
+							viewDepth=10,
 							id='navPrimary',
 							class='nav',
 							displayHome='No',
-							closePortals=false,
+							closePortals=true,
 							showCurrentChildrenOnly=false,
 							ulTopClass='nav',
 							ulNestedClass='dropdown-menu',

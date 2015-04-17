@@ -71,7 +71,7 @@
 				<div class="12u">
 					<div id="copyright">
 						<ul class="menu">
-							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; #dateformat(now(), 'yyyy')# Burnham Community church</li><li>Registered charity number : 1118418</li>
 						</ul>
 					</div>
 				</div>

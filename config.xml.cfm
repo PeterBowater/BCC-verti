@@ -5,29 +5,43 @@
 	3) That's it!
 -->
 <theme>
+	<imagesizes>
+		<imagesize name="tinyCarouselimage" width="340" height="148" />
+		<imagesize name="smallCarouselimage" width="736" height="320" />
+		<imagesize name="largeCarouselimage" width="1200" height="400" />
+	</imagesizes>
 	<extensions>
 	<extension type="Calendar" subType="List">
 	</extension>
-		<!--
 		<extension type="Base" subType="Default">
-			<attributeset name="Mobile Options" container="Basic">
+			<attributeset name="Display options" container="Basic">
 				<attribute 
-					name="hasMobileBody"
-					label="Has Mobile Content?"
-					hint="If you have mobile-specific content, select Yes."
-					type="RadioGroup"
+					name="showHeaderImage"
+					label="Show header image?"
+					hint="Show page a header image at the top of this page?"
+					type="selectBox"
 					defaultValue="false"
-					required="false"
+					required=""
 					validation=""
 					regex=""
 					message=""
-					optionList="true^false"
-					optionLabelList="Yes^No" />
+					optionList="false^true"
+					optionLabelList="No^Yes" />
+			</attributeset>
+		</extension>
+		<extension type="Page" subType="Blog post">
+		</extension>
+		<extension type="Calendar" subType="List">
+		</extension>
+		<extension type="Page" subType="Event">
+		</extension>
+		<extension type="Page" subType="HomePageSlide" hasSummary="0" hasBody="0">
+			<attributeset name="Home page slider options" container="Basic">
 				<attribute 
-					name="mobileBody"
-					label="Mobile Content"
-					hint="Enter any mobile-specific content here."
-					type="HTMLEditor"
+					name="slideWideImage"
+					label="Large slide image"
+					hint="Image to be used on screens that are over 1024 wide"
+					type="file"
 					defaultValue=""
 					required="false"
 					validation=""
@@ -35,23 +49,42 @@
 					message=""
 					optionList=""
 					optionLabelList="" />
-			</attributeset>
-		</extension>
-		-->
-		<extension type="Site">
-			<attributeset name="MuraBootstrap Theme Options" container="Default">
 				<attribute 
-					name="mbUseFluid"
-					label="Use Fluid Layout?"
-					hint="Think in terms of your ENTIRE page...'fluid' would continue expanding the width of your content when your browser is greater than 960px wide and always stretch to fit your browser window, no matter how wide it gets."
-					type="RadioGroup"
-					defaultValue="false"
+					name="slideStyle"
+					label="Slide style"
+					hint=""
+					type="selectbox"
+					defaultValue=""
 					required="false"
 					validation=""
 					regex=""
 					message=""
-					optionList="true^false"
-					optionLabelList="Yes^No" />
+					optionList="slide^slide2^slide3"
+					optionLabelList="No background with White Border^Black Background with Black Border (no button)^Black Background with White Border (no button)" />
+				<attribute 
+					name="slideButtonText"
+					label="Slide button text"
+					hint="If selecting 'No Background with White Border' and you include a link/URL, then you can specify the text to appear on the button link."
+					type="textbox"
+					defaultValue=""
+					required="false"
+					validation=""
+					regex=""
+					message=""
+					optionList=""
+					optionLabelList="" />
+				<attribute 
+					name="slideURL"
+					label="Slide Link (full URL)"
+					hint="Enter the full URL of where you want the image (and button if desired) to go to (include http://)"
+					type="textbox"
+					defaultValue=""
+					required="false"
+					validation=""
+					regex=""
+					message=""
+					optionList=""
+					optionLabelList="" />
 			</attributeset>
 		</extension>
 	</extensions>

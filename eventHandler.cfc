@@ -25,12 +25,12 @@
 			renderer.generalWrapperClass = 'well';
 
 			// heading vars
-			renderer.headline = 'h1';
-			renderer.subHead1 = 'h2';
-			renderer.subHead2 = 'h3';
-			renderer.subHead3 = 'h4';
-			renderer.subHead4 = 'h5';
-			renderer.subHead5 = 'h6';
+			renderer.headline = 'h2';
+			renderer.subHead1 = 'h3';
+			renderer.subHead2 = 'h4';
+			renderer.subHead3 = 'h5';
+			renderer.subHead4 = 'h6';
+			renderer.subHead5 = 'h7';
 
 			// nav and list item vars
 			renderer.navWrapperClass = 'well';
