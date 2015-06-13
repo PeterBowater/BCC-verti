@@ -10,8 +10,6 @@
        ,dataType="timestamp");
     feed.setSortBy('displayStart');
     feed.setSortDirection('asc');
-    writeDump(var=feed.getParams());
-    writeDump(feed.getQuery());
 	iterator = feed.getIterator();
 </cfscript>
 <cfoutput>

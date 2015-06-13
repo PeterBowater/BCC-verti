@@ -15,16 +15,11 @@
 	<meta name="keywords" content="" />
 	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 	<script src="#$.siteConfig('themeAssetPath')#/js/theme/jquery.min.js"></script>
-	<script src="#$.siteConfig('themeAssetPath')#/js/theme/jquery.dropotron.min.js"></script>
-	<script src="#$.siteConfig('themeAssetPath')#/js/theme/skel.min.js"></script>
-	<script src="#$.siteConfig('themeAssetPath')#/js/theme/skel-layers.min.js"></script>
-	<script src="#$.siteConfig('themeAssetPath')#/js/theme/init.js"></script>
-	<script src="#$.siteConfig('themeAssetPath')#/js/theme/owl.carousel.min.js"></script>
-	<noscript>
-		<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/skel.css" />
-		<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style.css" />
-		<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style-desktop.css" />
-	</noscript>
+	
+	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/skel.css" />
+	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style.css" />
+	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style-desktop.css" />
+	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/custom.css" />
 	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/owl.carousel.css" />
 	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/owl.theme.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/ie/v8.css" /><![endif]-->
@@ -37,7 +32,5 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="#$.siteConfig('themeAssetPath')#/images/ico/ico/apple-touch-icon-114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="#$.siteConfig('themeAssetPath')#/images/ico/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="#$.siteConfig('themeAssetPath')#/images/ico/ico/apple-touch-icon-57-precomposed.png">
-
-
 </head>
 </cfoutput>

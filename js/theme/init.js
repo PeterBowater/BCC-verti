@@ -9,10 +9,10 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global':	{ range: '*', href: '/BCC/includes/themes/BCC-verti/css/theme/style.css' },
-			'desktop':	{ range: '900-', href: '/BCC/includes/themes/BCC-verti/css/theme/style-desktop.css', containers: 1200, grid: { gutters: 40 } },
-			'1000px':	{ range: '900-1200', href: '/BCC/includes/themes/BCC-verti/css/theme/style-1000px.css', containers: 736, grid: { gutters: 25 }, viewport: { width: 1080 } },
-			'mobile':	{ range: '-900', href: '/BCC/includes/themes/BCC-verti/css/theme/style-mobile.css', containers: '100%!', grid: { collapse: true, gutters: 20 }, viewport: { scalable: false } }
+			'global':	{ range: '*', href: mura.themepath +'/css/theme/style.css' },
+			'desktop':	{ range: '900-', href: mura.themepath +'/css/theme/style-desktop.css', containers: 1200, grid: { gutters: 40 } },
+			'1000px':	{ range: '900-1200', href: mura.themepath +'/css/theme/style-1000px.css', containers: 736, grid: { gutters: 25 }, viewport: { width: 1080 } },
+			'mobile':	{ range: '-900', href: mura.themepath +'/css/theme/style-mobile.css', containers: '100%!', grid: { collapse: true, gutters: 20 }, viewport: { scalable: false } }
 		},
 		plugins: {
 			layers: {

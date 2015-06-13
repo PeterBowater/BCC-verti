@@ -110,7 +110,7 @@
 
 			.row.\32 00\25 > * {
 				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
-				padding: 80px 0 0 80px;
+				padding: 40px 0 0 80px;
 			}
 
 			.row.\32 00\25 {

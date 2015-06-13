@@ -4,10 +4,13 @@
 		<header id="header" class="container">
 		
 			<!-- Logo -->
-				<div id="logo">
-					<h1><a href="/">Verti</a></h1>
-					<!---<span>by BCC</span>--->
-				</div>
+			<h1>
+				<a href="/" title="Burnham Community Church">
+					<div id="logo">
+						
+					</div>
+				</a>
+			</h1>
 			
 			<!-- Nav -->
 				<nav id="nav">

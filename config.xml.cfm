@@ -8,10 +8,10 @@
 	<imagesizes>
 		<imagesize name="tinyCarouselimage" width="340" height="148" />
 		<imagesize name="smallCarouselimage" width="736" height="320" />
-		<imagesize name="largeCarouselimage" width="1200" height="400" />
+		<imagesize name="largeCarouselimage" width="1200" height="521" />
 	</imagesizes>
 	<extensions>
-	<extension type="Calendar" subType="List">
+	<extension type="Folder" subType="Calendar">
 	</extension>
 		<extension type="Base" subType="Default">
 			<attributeset name="Display options" container="Basic">
@@ -31,9 +31,33 @@
 		</extension>
 		<extension type="Page" subType="Blog post">
 		</extension>
-		<extension type="Calendar" subType="List">
-		</extension>
 		<extension type="Page" subType="Event">
+			<attributeset name="Event schedule" container="Basic">
+				<attribute 
+					name="eventStartDate"
+					label="Start date"
+					hint=""
+					type="textbox"
+					defaultValue=""
+					required="false"
+					validation="date"
+					regex=""
+					message=""
+					optionList=""
+					optionLabelList="" />
+				<attribute 
+					name="eventFinishDate"
+					label="Start date"
+					hint=""
+					type="textbox"
+					defaultValue=""
+					required="false"
+					validation="date"
+					regex=""
+					message=""
+					optionList=""
+					optionLabelList="" />
+			</attributeset>
 		</extension>
 		<extension type="Page" subType="HomePageSlide" hasSummary="0" hasBody="0">
 			<attributeset name="Home page slider options" container="Basic">

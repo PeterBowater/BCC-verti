@@ -1,0 +1,28 @@
+#logo{
+	background-image: url("../../images/SiteLogo.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 124px;
+	width: 320px;
+}
+@media (max-width: 900px){
+	#logo{
+		position:absolute;
+		left: 50%;
+		margin-left: -160px;
+	}
+}
+
+#navPrimary {
+	margin-top: 50px;
+}
+.regularEvents p {
+	margin-bottom: 0;
+}
+.regularEvent{
+	margin-bottom: 15px;
+}
+.moreLink {
+	text-align: right;
+	line-height: 1.25em;
+}
