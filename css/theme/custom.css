@@ -15,11 +15,14 @@
 	}
 }
 #navPrimary {
-	margin-top: 85px;
+	margin-top: 83px;
+}
+#navPrimary li{
+	margin-right: 7px;
 }
 @media (min-width: 1200px){
 	#navPrimary {
-		margin-top: 45px;
+		margin-top: 43px;
 	}
 	#header-wrapper{
 		height: 125px !important;
@@ -42,7 +45,10 @@
 	line-height: 1.25em;
 }
 #mc_embed_signup .button{
-	background-color: blue !important;
+	background-color: #2856A4 !important;
+}
+#mc_embed_signup .button:hover{
+	background-color: #183264 !important;
 }
 #mc_embed_signup .indicates-required{
 	display: none;
@@ -59,4 +65,30 @@
 #sidebar h3{
 	margin-top: 25px;
 	margin-bottom: 15px;
+}
+
+footer section h3{
+	margin-bottom: 0.5em;
+}
+
+footer section ul,
+footer section p{
+	margin-left: 7px;
+}
+.widget.contact ul{
+	left: 0;
+}
+
+#navPrimary li a{
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.image-left {
+	float: left;
+	margin-right: 10px;
+}
+.image-right {
+	float: right;
+	margin-left: 10px;
 }

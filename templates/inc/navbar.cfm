@@ -30,7 +30,7 @@
 							liNestedClass='',
 							aHasKidsClass='dropdown',
 							aHasKidsCustomString='role="button" data-toggle="dropdown" data-target="##"',
-							liCurrentClass='active',
+							liCurrentClass='active current',
 							aCurrentClass=''
 						)#
 					</cf_cacheomatic>

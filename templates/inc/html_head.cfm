@@ -35,13 +35,11 @@
 	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 	<script src="#$.siteConfig('themeAssetPath')#/js/theme/jquery.min.js"></script>
 	
-	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/skel.css" />
-	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style.css" />
-	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/style-desktop.css" />
+	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/main.css" />
 	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/custom.css" />
 	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/owl.carousel.css" />
 	<link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/theme/owl.theme.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/ie/v8.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="#$.siteConfig('themeAssetPath')#/css/ie/v8.css" /><![endif]-->
 
 
 	<!--- FAV AND TOUCH ICONS

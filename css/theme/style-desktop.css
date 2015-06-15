@@ -194,15 +194,11 @@
 				{
 					font-weight: 800;
 					letter-spacing: 0.025em;
-					color: #696969;
+					color: #ffffff;
 					text-decoration: none;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
-					-moz-transition: background-color .25s ease-in-out;
-					-webkit-transition: background-color .25s ease-in-out;
-					-o-transition: background-color .25s ease-in-out;
-					-ms-transition: background-color .25s ease-in-out;
-					transition: background-color .25s ease-in-out;
+					background-color: #2856A4;
 				}
 				
 				#nav ul li > ul
@@ -217,7 +213,7 @@
 				#nav ul li:hover a,
 				#nav ul li:hover span
 				{
-					background: #fff;
+					background: #183264;
 				}
 
 			#nav ul li.active
@@ -227,7 +223,7 @@
 				#nav ul li.active a,
 				#nav ul li.active span
 				{
-					background: #fff;
+					background: #183264;
 				}
 
 			#nav ul li.current
@@ -236,15 +232,15 @@
 
 				#nav ul li.current a
 				{
-					background: #444;
+					background: #183264;
 					color: #fff;
 				}
 				
 	.dropotron
 	{
-		background: #fff;
+		background: #2856A4;
 		letter-spacing: 0.025em;
-		color: #696969;
+		color: #ffffff;
 		text-decoration: none;
 		border-radius: 6px;
 		padding: 0.75em 0;
@@ -284,12 +280,13 @@
 				.dropotron li.active > a,
 				.dropotron li.active > span
 				{
-					background: #eee;
+					background: #183264;
 				}
 	
 		.dropotron.level-0
 		{
-			font-size: 0.8em;
+			font-size: 1.0em;
+			font-weight: 400;
 			margin-left: 1.5em;
 			margin-top: 0;
 		}

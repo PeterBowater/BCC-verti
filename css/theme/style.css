@@ -49,7 +49,7 @@
 	
 	a
 	{
-		color: #0090c5;
+		color: #2856A4;
 		text-decoration: underline;
 	}
 	
@@ -559,7 +559,7 @@
 						line-height: 2.5em;
 						border-radius: 0.35em;
 						outline: 0;
-						opacity: 0.75;
+						opacity: 1;
 						text-decoration: none;
 						background: #222222;
 						-moz-transition: background-color .25s ease-in-out;

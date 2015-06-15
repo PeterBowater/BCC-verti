@@ -71,6 +71,8 @@
 				}
 
 			}
+			
+			$('head').append('<link rel="stylesheet" type="text/css" href="' + mura.themepath +'/css/theme/custom.css">')
 
 		// Dropdowns.
 			$('#nav > ul').dropotron({
@@ -81,11 +83,25 @@
 			});
 			
 		// Home page carousel
-		  $("#owl-demo").owlCarousel({
+		  $(".owl-carousel").owlCarousel({
 		      navigation : true,
 		      slideSpeed : 300,
 		      paginationSpeed : 400,
-		      singleItem:true
+		      singleItem:true,
+		      items: 1,
+		      nav: true,
+		      autoplay: true
+		  });
+		// Gallery page carousel
+		  $(".owl-carousel-gallery").owlCarousel({
+		      navigation : true,
+		      slideSpeed : 300,
+		      paginationSpeed : 400,
+		      singleItem:false,
+		      items: 3,
+		      nav: true,
+		      autoplay: true,
+		      autoheight: 400
 		  });
 
 	});
