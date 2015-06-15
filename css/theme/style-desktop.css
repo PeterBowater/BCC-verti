@@ -124,7 +124,7 @@
 	#header-wrapper
 	{
 		padding: 1em 0 0em 0;
-		height: 130px;
+		height: 165px;
 	}
 	
 	#features-wrapper
@@ -134,7 +134,7 @@
 	
 	#main-wrapper
 	{
-		padding: 4em 0.5em 5em 0.5em;
+		padding: 3em 0.5em 5em 0.5em;
 	}
 	
 	#footer-wrapper
@@ -186,7 +186,7 @@
 			{
 				float: left;
 				line-height: 4.5em;
-				padding-left: 1.5em;
+				padding-left: 0;
 			}
 
 				#nav ul li a,
@@ -294,17 +294,7 @@
 			margin-top: 0;
 		}
 		
-			.dropotron.level-0:before
-			{
-				content: '';
-				position: absolute;
-				top: -0.5em;
-				left: 1em;
-				border-bottom: solid 0.75em #ffffff;
-				border-left: solid 0.75em transparent;
-				border-right: solid 0.75em transparent;
-				z-index: 1;
-			}
+			
 
 /*********************************************************************************/
 /* Banner                                                                        */

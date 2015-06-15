@@ -5,6 +5,8 @@
 	height: 124px;
 	width: 320px;
 }
+
+
 @media (max-width: 900px){
 	#logo{
 		position:absolute;
@@ -12,9 +14,22 @@
 		margin-left: -160px;
 	}
 }
-
 #navPrimary {
-	margin-top: 50px;
+	margin-top: 85px;
+}
+@media (min-width: 1200px){
+	#navPrimary {
+		margin-top: 45px;
+	}
+	#header-wrapper{
+		height: 125px !important;
+	}
+}
+#mc_embed_signup,
+.fb-like-box span,
+.fb-like-box,
+.fb-like-box iframe{
+	width: 100% !important;
 }
 .regularEvents p {
 	margin-bottom: 0;
@@ -25,4 +40,23 @@
 .moreLink {
 	text-align: right;
 	line-height: 1.25em;
+}
+#mc_embed_signup .button{
+	background-color: blue !important;
+}
+#mc_embed_signup .indicates-required{
+	display: none;
+}
+#mc_embed_signup p{
+	margin-bottom: 5px;
+}
+#mc_embed_signup form{
+	padding-left: 0!important;
+}
+.fancypics {
+	width: 100%;
+}
+#sidebar h3{
+	margin-top: 25px;
+	margin-bottom: 15px;
 }

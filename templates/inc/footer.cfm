@@ -3,7 +3,22 @@
 	<div id="footer-wrapper">
 		<footer id="footer" class="container">
 			<div class="row">
-				<div class="3u">
+				<div class="4u">
+				
+					<!-- Links -->
+						<section class="widget links">
+							<h3>Quick links</h3>
+							<ul class="style2">
+								<li><a href="##">Etiam feugiat condimentum</a></li>
+								<li><a href="##">Aliquam imperdiet suscipit odio</a></li>
+								<li><a href="##">Sed porttitor cras in erat nec</a></li>
+								<li><a href="##">Felis varius pellentesque potenti</a></li>
+								<li><a href="##">Nullam scelerisque blandit leo</a></li>
+							</ul>
+						</section>
+				
+				</div>
+				<div class="4u">
 				
 					<!-- Links -->
 						<section class="widget links">
@@ -18,37 +33,7 @@
 						</section>
 				
 				</div>
-				<div class="3u">
-				
-					<!-- Links -->
-						<section class="widget links">
-							<h3>Random Stuff</h3>
-							<ul class="style2">
-								<li><a href="##">Etiam feugiat condimentum</a></li>
-								<li><a href="##">Aliquam imperdiet suscipit odio</a></li>
-								<li><a href="##">Sed porttitor cras in erat nec</a></li>
-								<li><a href="##">Felis varius pellentesque potenti</a></li>
-								<li><a href="##">Nullam scelerisque blandit leo</a></li>
-							</ul>
-						</section>
-				
-				</div>
-				<div class="3u">
-				
-					<!-- Links -->
-						<section class="widget links">
-							<h3>Random Stuff</h3>
-							<ul class="style2">
-								<li><a href="##">Etiam feugiat condimentum</a></li>
-								<li><a href="##">Aliquam imperdiet suscipit odio</a></li>
-								<li><a href="##">Sed porttitor cras in erat nec</a></li>
-								<li><a href="##">Felis varius pellentesque potenti</a></li>
-								<li><a href="##">Nullam scelerisque blandit leo</a></li>
-							</ul>
-						</section>
-				
-				</div>
-				<div class="3u">
+				<div class="4u">
 				
 					<!-- Contact -->
 						<section class="widget contact last">

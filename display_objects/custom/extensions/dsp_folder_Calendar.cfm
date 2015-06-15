@@ -3,12 +3,12 @@
     feed.setSiteID(session.siteid);
     feed.setMaxItems(0);
 	feed.addParam(field="tcontent.parentid", criteria="#$.content('contentID')#");
-	feed.addParam(relationship="and"
+	feed.addParam(relationship="or"
        ,field="tcontent.displayStop"
        ,criteria="#now()#"
        ,condition="GTE"
-       ,dataType="timestamp");
-    feed.setSortBy('displayStart');
+       ,dataType="varchar");
+    feed.setSortBy('tcontent.displayStop');
     feed.setSortDirection('asc');
 	iterator = feed.getIterator();
 </cfscript>
@@ -16,7 +16,6 @@
 	<cfset prevItem = $.content()>
 	<cfloop condition="iterator.hasNext()">
 		<cfset item=iterator.next()>
-		<cfif item.getValue('title') NEQ prevItem.getValue('title')>
 			<article class="listing">
 				<cfif len(item.getBody())>
 					<cfif len(item.getImageURL(width='580', height='274'))>
@@ -38,7 +37,6 @@
 					</cfif>
 				</cfif>
 			</article>
-		</cfif>
-		<cfset prevItem = item>
+
 	</cfloop>
 </cfoutput>

@@ -76,8 +76,17 @@
 			$('#nav > ul').dropotron({
 				mode: 'fade',
 				noOpenerFade: true,
-				speed: 300
+				speed: 300,
+				globalOffsetY:-22
 			});
+			
+		// Home page carousel
+		  $("#owl-demo").owlCarousel({
+		      navigation : true,
+		      slideSpeed : 300,
+		      paginationSpeed : 400,
+		      singleItem:true
+		  });
 
 	});
 
