@@ -13,6 +13,22 @@
 	<extensions>
 	<extension type="Folder" subType="Calendar">
 	</extension>
+	<extension type="Folder" subType="Grid">
+		<attributeset name="Display options" container="Basic">
+			<attribute 
+				name="gridNoWide"
+				label="How many images wide in this grid?"
+				hint=""
+				type="selectBox"
+				defaultValue="false"
+				required=""
+				validation=""
+				regex=""
+				message=""
+				optionList="2^3^4^5"
+					optionLabelList="2^3^4^6" />
+		</attributeset>
+	</extension>
 		<extension type="Base" subType="Default">
 			<attributeset name="Display options" container="Basic">
 				<attribute 

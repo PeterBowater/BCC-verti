@@ -5,10 +5,11 @@
 		<!-- Main -->
 		<div id="main-wrapper">
 			<div class="container">
+				<cfinclude template="inc/breadcrumb.cfm" />
 				<cfinclude template="inc/carousel.cfm" />
 			</div>
 			<div class="container">
-			<div class="row 200%">
+			<div class="row">
 				<div class="8u">
 					<div id="content">
 						<!-- Content -->

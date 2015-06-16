@@ -5,7 +5,8 @@
 		<!-- Main -->		
 		<div id="main-wrapper">
 			<div class="container">
-				<div class="row 200%">
+				<cfinclude template="inc/breadcrumb.cfm" />
+				<div class="row">
 					<div class="4u">
 						<div id="sidebar">
 							#$.dspObjects(1)#
@@ -15,7 +16,8 @@
 						<div id="content">
 							<!-- Content -->
 								<article>
-									#$.dspBody(body=$.content('body'),pageTitle=$.content('title'),crumbList=0,showMetaImage=0)#
+									<h1 class="pageTitle">#$.content('title')#</h1>
+									#$.dspBody(body=$.content('body'),pageTitle='',crumbList=0,showMetaImage=0)#
 									#$.dspObjects(2)#
 								</article>
 						</div>

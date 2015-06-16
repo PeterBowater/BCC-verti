@@ -4,13 +4,21 @@
 		<header id="header" class="container">
 		
 			<!-- Logo -->
-			<h1>
+			<cfif $.content('contentid') eq '00000000000000000000000000000000001'>
+				<h1>
+			<cfelse>
+				<div>
+			</cfif>
 				<a href="/" title="Burnham Community Church">
 					<div id="logo">
 						
 					</div>
 				</a>
-			</h1>
+			<cfif $.content('contentid') eq '00000000000000000000000000000000001'>
+				</h1>
+			<cfelse>
+				</div>
+			</cfif>
 			
 			<!-- Nav -->
 				<nav id="nav">

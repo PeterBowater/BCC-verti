@@ -70,14 +70,9 @@
 				
 				.box.feature .inner
 				{
-					padding: 4em 2em 3em 2em;
+					padding: 2em 2em 3em 2em;
 				}
 				
-				.box.feature h2
-				{
-					font-size: 1.35em;
-				}
-
 				.box.feature p
 				{
 					margin: 0;
@@ -124,7 +119,7 @@
 	#header-wrapper
 	{
 		padding: 1em 0 0em 0;
-		height: 165px;
+		height: 180px;
 	}
 	
 	#features-wrapper
@@ -134,7 +129,7 @@
 	
 	#main-wrapper
 	{
-		padding: 3em 0.5em 5em 0.5em;
+		padding: 1em 0.5em 5em 0.5em;
 	}
 	
 	#footer-wrapper

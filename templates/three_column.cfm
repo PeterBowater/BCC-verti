@@ -4,12 +4,13 @@
 		<div>
 			<cfinclude template="inc/navbar.cfm" />
       		<div class="row-fluid">
+	      		<cfinclude template="inc/breadcrumb.cfm" />
 	      		<aside class="span3">
 	      		    #$.dspObjects(1)#
 	      		</aside><!--/span3-->
 				<section class="span6 content">
-					<cfinclude template="inc/breadcrumb.cfm" />
-					#$.dspBody(body=$.content('body'),pageTitle=$.content('title'),crumbList=0,showMetaImage=1)#
+					<h1 class="pageTitle">#$.content('title')#</h1>
+					#$.dspBody(body=$.content('body'),pageTitle='',crumbList=0,showMetaImage=0)#
 					#$.dspObjects(2)#
 			    </section><!--/span6-->
 				<aside class="span3">

@@ -14,11 +14,7 @@
 		font-size: 16px;
 	}
 
-	h2, h3, h4, h5, h6
-	{
-		font-size: 16px;
-		margin: 0 0 1em 0;
-	}
+	
 
 	/* Section/Article */
 
@@ -259,6 +255,7 @@
 	#header-wrapper
 	{
 		padding: 44px 0 0px 0;
+		height: 130px;
 	}
 	
 	#banner-wrapper
@@ -273,7 +270,7 @@
 	
 	#main-wrapper
 	{
-		padding: 40px 30px 40px 30px;
+		padding: 1em 30px 40px 30px;
 	}
 	
 	#footer-wrapper
@@ -356,7 +353,7 @@
 	{
 		border-bottom: solid 1px #e8e8e8;
 		padding-bottom: 4em;
-		margin-bottom: 3em !important;
+		margin-bottom: 0em !important;
 	}
 	
 		#content > :last-child

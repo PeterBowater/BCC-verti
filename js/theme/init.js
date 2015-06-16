@@ -3,6 +3,7 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+			$('head').append('<link rel="stylesheet" type="text/css" href="' + mura.themepath +'/css/theme/custom.css">');
 
 (function($) {
 
@@ -72,8 +73,8 @@
 
 			}
 			
-			$('head').append('<link rel="stylesheet" type="text/css" href="' + mura.themepath +'/css/theme/custom.css">')
-
+			$('head').append('<link rel="stylesheet" type="text/css" href="' + mura.themepath +'/css/theme/custom.css">');
+			$('#navMultilevel a').each(function() { $(this).prepend('<i class="icon fa-chevron-right">'); });
 		// Dropdowns.
 			$('#nav > ul').dropotron({
 				mode: 'fade',
