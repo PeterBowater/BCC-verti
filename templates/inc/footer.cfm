@@ -19,19 +19,6 @@
 				<div class="3u">
 					<!-- Links -->
 					<section class="widget links">
-						<h3>Navigation</h3>
-						<ul class="style2">
-							<li><a href="#$.createHref(filename='events')#">About us</a></li>
-							<li><a href="#$.createHref(filename='about-us')#">What we do</a></li>
-							<li><a href="#$.createHref(filename='news')#">News</a></li>
-							<li><a href="#$.createHref(filename='resources')#">Resources</a></li>
-						</ul>
-					</section>
-				</div>
-				
-				<div class="3u">
-					<!-- Links -->
-					<section class="widget links">
 						<h3>External links</h3>
 						<ul class="style2">
 							<li><a href="http://www.bibleinoneyear.org/">Read the Bible in one year</a></li>
@@ -43,7 +30,17 @@
 				</div>
 				
 				<div class="3u">
+					<!-- Links -->
+					<section class="widget links">
+						<h3>Where we meet</h3>
+						<ul class="style2">
+							<li>King Alfred School, Highbridge every Sunday from 10am</li>
+							<li><a href="#$.createHref('/contact-us/')#"><img src="#$.siteConfig('themeAssetPath')#/images/small_map.jpg" /></a></li>
+						</ul>
+					</section>
+				</div>
 				
+				<div class="3u">
 					<!-- Contact -->
 						<section class="widget links last">
 							<h3>Contact Us</h3>
